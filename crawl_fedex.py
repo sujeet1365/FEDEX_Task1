@@ -2,7 +2,7 @@ import requests,json
 from datetime import date as dt
 import calendar as cl
 
-trac_no = '744668909687'
+trac_no = raw_input("Enter Tracking No.=")
 #Package Tracking No.
 
 #Fetching All the data form from Fedex site into json.
